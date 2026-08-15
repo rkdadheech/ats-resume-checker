@@ -32,9 +32,10 @@ st.markdown("""
     .kw-matched {background: #e6f4ea; color: #1e7e34; border: 1px solid #b7e1c0;}
     .kw-missing {background: #fdeceb; color: #c62828; border: 1px solid #f5c6c3;}
     .suggestion-box {
-        background: #f8f9fb; border-left: 3px solid #4f46e5;
-        border-radius: 6px; padding: 10px 14px; margin-bottom: 10px;
-    }
+    background: #f8f9fb; border-left: 3px solid #4f46e5;
+    border-radius: 6px; padding: 10px 14px; margin-bottom: 10px; color: #1a1a1a;
+}
+.suggestion-box b {color: #1a1a1a;}
     .lag-box {
         background: #fdeceb; border-left: 3px solid #c62828;
         border-radius: 6px; padding: 8px 14px; margin-bottom: 8px; color: #1a1a1a;
